@@ -1,0 +1,18 @@
+{
+  "name": "qq-rich-msg-decode",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "wasm-pack build --target nodejs",
+    "build:dev": "wasm-pack build --dev --target nodejs",
+    "test": "node ./tests/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-3.0-or-later",
+  "devDependencies": {
+    "wasm-pack": "^0.12.1"
+  }
+}
